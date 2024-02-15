@@ -7,11 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body>
-
+    <link rel="stylesheet" href="index.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
 
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <div class="landding">
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 custom-border">
           <div class="col-md-3 mb-2 mb-md-0">
             <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
               WEB PROGRAMMING
@@ -19,10 +20,10 @@
           </div>
     
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 link-secondary">About me</a></li>
-            <li><a href="#" class="nav-link px-2 link-secondary">Exercises</a></li>
-            <li><a href="#" class="nav-link px-2 link-secondary">Contact</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Home</a></li>
+            <li><a href="#AboutM" class="nav-link px-2 link-body-emphasis">About me</a></li>
+            <li><a href="#Exer" class="nav-link px-2 link-body-emphasis">Exercises</a></li>
+            <li><a href="#Con" class="nav-link px-2 link-body-emphasis">Contact</a></li>
           </ul>
     
           <div class="col-md-3 text-end">
@@ -45,17 +46,17 @@
           </p>
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img class="rounded-lg-3" src="immage/cat.jpg" alt="Portfolilo Picture" width="500" >
+            <img class="rounded-lg-3" src="immage/Chun.jpg" alt="Portfolilo Picture" width="500" >
         </div>
       </div>
 
       <!-- About me -->
 
-      <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="immage/cat2.jpg" alt="" width="72" height="57">
-        <h1 class="display-5 fw-bold text-body-emphasis">About me</h1>
+      <div class="px-4 py-5 my-5 text-center ">
+        <img class= "d-block mx-auto mb-4" src="https://media.discordapp.net/attachments/1156266187232116766/1207733472718753832/IMG_20231120_140046_320.jpg?ex=65e0b872&is=65ce4372&hm=4919b551d779eeb3081f6903940525c22cc340606f20f593b6062616d71b90ff&=&format=webp&width=357&height=476" alt="" width="200" height="250" id="AboutM">
+        <h1 class="display-5 fw-bold text-body-emphasis" >About me</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">I am Natchayakon Pasakon.
+          <p class="lead mb-4">I am Natchayakon Pasakon
             <h5 class="lead mb-3">Student ID 6540011059.</h5>
             <h5 class="lead mb-3">Information Technology major. Faculty of Science and Industry Prince of Songkla University Surat Thani Campus Currently studying in the second year.</h5>
           </p>
@@ -63,90 +64,110 @@
       </div>
 
       <!-- Exercises -->
-
-      <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Exercises</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      
+      <div class="container-fluid px-4 py-5 background" id="hanging-icons">
+        <div class="container">
+          <h1 class="pb-2 custom-border" id="Exer">Exercises</h1>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <img src="immage/Web.png" alt="" class="imgex">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Websites</h3>
+                <p>Website operating system</p>
+                <a href="งานweb-programming_014_059.pdf" class="btn btn-primary">
+                  View
+                </a>
+              </div>
             </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Websites</h3>
-              <p>Website operating system</p>
-              <a href="งานweb-programming_014_059.pdf" class="btn btn-primary">
-                Primary button
-              </a>
+  
+            <div class="col d-flex align-items-start">
+              <img src="immage/Tomyum.png" alt="" class="imgex">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Food menu</h3>
+                <p>How to make Tom Yum Kung</p>
+                <a href="Ex2._Food_059_.HTML" class="btn btn-primary">
+                  View
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+  
+            <div class="col d-flex align-items-start">
+              <img src="immage/IT+IS.png" alt="" class="imgex">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">IT + IS Form</h3>
+                <p>Creating an IT + IS From.</p>
+                <a href="ex3_014_059.html" class="btn btn-primary">
+                  View
+                </a>
+              </div>
             </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Food menu</h3>
-              <p>How to make Tom Yum Kung</p>
-              <a href="Ex2._Food_059_.HTML" class="btn btn-primary">
-                Primary button
-              </a>
+  
+            <div class="col d-flex align-items-start">
+              <img src="immage/Boostrap.png" alt="" class="imgex">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Bootstrap</h3>
+                <p>How to use bootstrap</p>
+                <a href="bootstrap.html" class="btn btn-primary">
+                  View
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
-            </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">IT + IS Form</h3>
-              <p>Creating an IT + IS From.</p>
-              <a href="ex3_014_059.html" class="btn btn-primary">
-                Primary button
-              </a>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
-            </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Bootstrap</h3>
-              <p>How to use bootstrap</p>
-              <a href="bootstrap.html" class="btn btn-primary">
-                Primary button
-              </a>
-            </div>
-          </div>
-
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
-            </div>
-            <div>
-              <h3 class="fs-2 text-body-emphasis">Login</h3>
-              <p>Login Form</p>
-              <a href="login.html" class="btn btn-primary">
-                Primary button
-              </a>
+  
+            <div class="col d-flex align-items-start">
+              <img src="immage/Login1.png" alt="" class="imgex">
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Login</h3>
+                <p>Login Form</p>
+                <a href="login.html" class="btn btn-primary">
+                  View
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        
       </div>
 
-      <!-- End -->
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h1 class="pb-2" id="Con">Contect</h1>
+      <h2 class="lead pb-2 custom-border">You can find my contact at</h2>
+      </div> 
 
-          <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About me</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Exercises</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      <!-- Contact -->
+
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-4">
+              <img class="imgct" src="immage/FB.png" alt="">
+              <h2>Facebook</h2>
+              <p><a class="btn btn-secondary" href="https://web.facebook.com/natchayakon.pasakon">Search</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="imgct" src="immage/IG.png" alt="">
+              <h2>Instagram</h2>
+              <p><a class="btn btn-secondary" href="https://www.instagram.com/imb_cx/">Search</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="imgct" src="immage/EM.png" alt="">
+              <h2>Email</h2>
+              <p><a class="btn btn-secondary" href="https://mail.google.com/mail/u/1/#inbox">Search</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div>
+        </div>
+        
+          <!-- End -->
+
+          <footer class="py-3 my-1">
+            <ul class="nav justify-content-center custom-border pb-3 mb-3">
+              <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">About me</a></li>
+              <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">Exercises</a></li>
+              <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">Contact</a></li>
             </ul>
             
             <p class="text-center text-body-secondary">Prince of Songkla University, Surat Thani Campus</p>
           </footer>
       </div>
-
+    </div>
 </body>
 </html>
